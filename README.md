@@ -23,7 +23,8 @@ Team_D_P_Deploy_and_Pray_B2/
 │   └── favicon.png
 └── docs/
     ├── B2_Final_Zero_Budget_Marketing_Plan.md
-    └── B2_Updated_Design_Documentation.md
+    ├── B2_Updated_Design_Documentation.md
+    └── SOURCE_NOTE.md
 ```
 
 ### B2 coverage
