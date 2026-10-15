@@ -74,11 +74,14 @@ textarea {
   display: flex;
   align-items: center;
   min-width: 145px;
+  height: 100%;
 }
 
 .brand img {
-  width: 155px;
-  max-width: 34vw;
+  width: auto;
+  max-width: 155px;
+  max-height: 56px;
+  object-fit: contain;
   display: block;
 }
 
