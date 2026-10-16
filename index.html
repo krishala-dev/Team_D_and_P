@@ -9,21 +9,20 @@
   <link rel="stylesheet" href="style.css">
   <style>
     /* ------------------------------------------------------------
-       TEAM AVATAR (PHOTO) STYLES — integrated from original CSS
-       Replaces the .avatar letter circle with a round image.
-       Added responsive tweaks for smaller screens.
+       TEAM AVATAR (PHOTO) STYLES
+       Round photo container replacing the old letter circle.
        ------------------------------------------------------------ */
     .avatar {
-      width: 84px;                /* slightly larger for photos */
+      width: 84px;
       height: 84px;
       border-radius: 50%;
-      overflow: hidden;           /* crop to circle */
-      display: flex;              /* ensures image fits nicely */
+      overflow: hidden;
+      display: flex;
       align-items: center;
       justify-content: center;
-      background: var(--blush);   /* fallback background if image missing */
+      background: var(--blush);
       margin-bottom: 20px;
-      border: 2px solid #fff;     /* subtle white border to pop */
+      border: 2px solid #fff;
       box-shadow: 0 6px 16px rgba(73, 56, 63, 0.12);
       transition: transform 0.25s ease;
     }
@@ -31,16 +30,14 @@
     .avatar img {
       width: 100%;
       height: 100%;
-      object-fit: cover;          /* cover ensures no distortion */
+      object-fit: cover;
       display: block;
     }
 
-    /* optional hover effect on person card */
     .person:hover .avatar {
       transform: scale(1.02);
     }
 
-    /* Responsive adjustments: on smaller screens, reduce avatar size */
     @media (max-width: 850px) {
       .avatar {
         width: 72px;
@@ -54,13 +51,12 @@
       }
     }
 
-    /* Ensure team cards keep consistent alignment with new avatar size */
     .person {
       display: flex;
       flex-direction: column;
     }
     .person h3 {
-      margin-top: 4px;            /* adjust spacing after image */
+      margin-top: 4px;
     }
   </style>
 </head>
@@ -142,7 +138,7 @@
   <div class="team-grid">
     <article class="person">
       <div class="avatar">
-        <img src="assets/sweta.png" alt="Sweta Gurung — Team Leader">
+        <img src="assets/sweta.jpg" alt="Sweta Gurung — Team Leader">
       </div>
       <h3>Sweta Gurung</h3>
       <p class="person-role">Team Leader</p>
@@ -150,7 +146,7 @@
     </article>
     <article class="person">
       <div class="avatar">
-        <img src="assets/krishala.png" alt="Krishala Thapa — Backend Developer">
+        <img src="assets/krishala.jpg" alt="Krishala Thapa — Backend Developer">
       </div>
       <h3>Krishala Thapa</h3>
       <p class="person-role">Backend Developer</p>
@@ -158,7 +154,7 @@
     </article>
     <article class="person">
       <div class="avatar">
-        <img src="assets/rustam.png" alt="Rustam Pradhan — Documentation & QA">
+        <img src="assets/rustam.jpg" alt="Rustam Pradhan — Documentation & QA">
       </div>
       <h3>Rustam Pradhan</h3>
       <p class="person-role">Documentation &amp; QA</p>
@@ -166,7 +162,7 @@
     </article>
     <article class="person">
       <div class="avatar">
-        <img src="assets/sambriddhi.png" alt="Sambriddhi Shrestha — UI/UX & Front-End Developer">
+        <img src="assets/sambriddhi.jpg" alt="Sambriddhi Shrestha — UI/UX & Front-End Developer">
       </div>
       <h3>Sambriddhi Shrestha</h3>
       <p class="person-role">UI/UX &amp; Front-End Developer</p>
